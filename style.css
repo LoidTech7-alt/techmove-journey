@@ -28,6 +28,11 @@ body {
     text-align: center;
 }
 
+.container {
+    background-color: #0f172a; /* deep navy */
+    padding: 40px 20px;
+}
+
 .profile {
     display: flex;
     align-items: center;
@@ -54,7 +59,14 @@ h1 {
 p {
     text-align: center;
     font-size: 18px;
-    color: black;
+    color: #e5e7eb;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #1e293b;
+    border-radius: 10px;
 }
 
 img {
@@ -69,14 +81,21 @@ img {
     border: 2px solid gray;
 }
 .section h2 {
-    color: goldenrod;
+    color: #38bdf8;
     margin-bottom: 10px;
 }
 
+
 h2, h3, h4 {
+
     margin-left: 20px;
 }
 
 .section ul {
     padding: 20px;
+}
+
+.section p,
+.section li {
+    color: #e5e7eb; 
 }
