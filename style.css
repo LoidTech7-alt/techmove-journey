@@ -6,6 +6,21 @@ body {
      padding:0;
 }
 
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.profile p {
+    text-align: left;
+}
+
 h1 {
     text-align: center;
      font-size: 42px;
@@ -21,11 +36,16 @@ p {
 }
 
 img {
+    width: 250px;
+    height: auto;
     display: block;
-    margin: 20px auto;
-    border-radius: 10px;
+    margin: 15px auto;
+    border-radius: 12px;
 }
 
+.section img {
+    border: 2px solid gray;
+}
 .section h2 {
     color: antiquewhite;
     margin-bottom: 10px;
