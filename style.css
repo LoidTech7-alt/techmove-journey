@@ -99,3 +99,25 @@ h2, h3, h4 {
 .section li {
     color: #e5e7eb; 
 }
+
+.contact-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    text-decoration: none;
+    background-color: #38bdf8;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-links a:hover {
+    background-color: #0ea5e9;
+    transform: scale(1.05);
+}
