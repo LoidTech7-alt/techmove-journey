@@ -12,7 +12,7 @@
    
     <nav class="navbar">
         <div class="logo">Paschal.dev</div>
-
+ 
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#journey">Journey</a>
@@ -22,25 +22,25 @@
     </nav>
 
        <div class="hero">
-        <h1>Paschal Osinga</h1>
-        <p>Aspiring Fullstack Developer</p>
-    </div>
+          <h1>Paschal Osinga</h1>
+          <p>Aspiring Fullstack Developer</p>
+       </div>
     
-    <div class="section">
-    <h2>Intro</h2>
+        <div class="section">
+          <h2>Intro</h2>
 
-    <p>
-        Second of five, I hold a degree in Applied Biology and Biotechnology from E.S.U.T and began my career as a Quality Analyst at Nigerian Breweries, building a strong foundation in precision and process excellence.
-    </p>
+          <p>
+             Second of five, I hold a degree in Applied Biology and Biotechnology from E.S.U.T and began my career as a Quality Analyst at Nigerian Breweries, building a strong foundation in precision and process excellence.
+          </p>
 
-    <p>
-        I currently work as a contractor for Industrial and Electrical Products at Osinga Group of Companies, while actively transitioning into tech through a Full Stack Development program at an IT Skills Centre.
-    </p>
+          <p>
+             I currently work as a contractor for Industrial and Electrical Products at Osinga Group of Companies, while actively transitioning into tech through a Full Stack Development program at an IT Skills Centre.
+          </p>
 
-    <p>
-        Single, driven, and focused on building impactful solutions.
-    </p>
-</div>
+           <p>
+             Single, driven, and focused on building impactful solutions.
+           </p>
+        </div>
 
     <div class="container">
     
@@ -111,6 +111,56 @@
     
     </div>
    
+    <div class="section" id="orders">
+
+        <h2>Demand Request Form</h2>
+
+        <form class="delivery-form">
+
+            <label for="customer-name">Full Name</label>
+            <input type="text" id="customer-name" required>
+            
+            <label for="address">Delivery Address</label>
+            <input type="text" id="address" required>
+
+            <label for="contact">Contact Number</label>
+            <input type="tel" id="contact" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required>
+            
+            <label for="demand">Requested Item</label>
+            <input type="text" id="demand" required>
+
+            <button type="submit">Submit Request</button>
+
+            
+        </form>
+    </div>
+
+    <div class="section">
+        <h2>Demand Request Table</h2>
+
+        <table class="request-table">
+
+            <thead>
+             <tr>
+                 <th>Name</th>
+                 <th>Address</th>
+                 <th>Contact</th>
+                 <th>Email</th>
+                 <th>Demand</th>
+             </tr>
+           </thead>
+        
+
+           <tbody id="table-body">
+            <!-- JavaScript rows appear here -->
+          </tbody>
+
+        </table>
+    </div>
+
     <div class="section" id="contact">
     <h2>Contact</h2>
 
